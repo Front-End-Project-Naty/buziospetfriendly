@@ -1,0 +1,24 @@
+.logo {
+    width: 10%;
+}
+
+.menu__lista {
+    background: white;
+    display: inline;
+    list-style-type: none;
+
+   }
+
+.menu__item {
+    color: black;
+    float: right; 
+    font-family: Inter;
+    font-weight: bold;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+
+.menu__item:hover {
+    color: purple;
+}
