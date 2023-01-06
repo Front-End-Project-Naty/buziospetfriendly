@@ -84,12 +84,7 @@ footer {
     text-align: center;
 }
 
-.texto__rodape {
-    font-family: 'Comic Neue';
-    font-weight: bold;
-    font-size: 20px;
-}
-
 .imagem__rodape {
-    width: 7%;
+    width: 10%;
+    margin: 20px 0 10px 0; 
 }
