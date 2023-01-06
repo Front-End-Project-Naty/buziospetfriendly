@@ -79,3 +79,17 @@ nav{
 .video {
     text-align: center;
 }
+
+footer {
+    text-align: center;
+}
+
+.texto__rodape {
+    font-family: 'Comic Neue';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imagem__rodape {
+    width: 7%;
+}
