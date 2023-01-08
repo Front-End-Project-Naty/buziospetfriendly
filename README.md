@@ -24,7 +24,7 @@
 
 ## Acesso ao projeto
 
-Você pode acessar em:
+Você pode acessar em: https://natyaith.github.io/buziospetfriendly/
 
 ## Desenvolvedora
 
