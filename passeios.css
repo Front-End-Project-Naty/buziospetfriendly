@@ -1,0 +1,99 @@
+body {
+    background-image: url(../img/wallpaper.jpg); 
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a {
+    color:black;
+}
+
+nav a:hover {
+    color: rgb(94, 23, 235);
+}
+
+.menu__lista {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.menu__item {
+    list-style: none;
+    font-family: 'Comic Neue';
+    font-size: 25px;
+    font-weight: bold;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.texto__passeios {
+    color: rgb(94, 23, 235);
+    font-family: 'Comic Neue';
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.passeio {
+    align-items: center;
+    display: flex;
+    font-family: 'Comic Neue';
+    font-weight: bold;
+    margin: 30px;
+}
+
+.passeio__imagem {
+    border-radius: 3em;
+    margin-left: 250px;
+    margin-top: 10px;
+    height: 300px;
+}
+
+.passeio__titulo {
+    color: rgb(94, 23, 235);
+    font-size: 30px;
+    padding: 40px;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.passeio__texto {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+    margin-right: 100px;
+}
+
+footer {
+    text-align: center;
+}
+
+.imagem__rodape {
+    margin: 20px 0 10px 0; 
+    width: 10%;
+}
