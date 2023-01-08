@@ -11,8 +11,8 @@
 ## Descrição do projeto 
 
 <p align="justify">
-Em construção.
-
+  Projeto de um guia pet friendly da cidade de Búzios/RJ desenvolvido com as ferramentas HTML e CSS.
+  Foi criada a página inicial, página de passeios e página de contato.
 
 </p>
 
