@@ -3,14 +3,14 @@ body {
 }
 
 body::after {
-    content: '';
-    position: fixed;
     background-color: white;
-    width: 100%;
+    content: '';
     height: 100%;
-    top: 0;
     left: 0;
     opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
     z-index: -1;
 }
 
@@ -39,10 +39,10 @@ nav a:hover {
 }
 
 .menu__item {
-    list-style: none;
     font-family: 'Comic Neue';
     font-size: 25px;
     font-weight: bold;
+    list-style: none;
     margin: 30px;
     text-transform: uppercase;
 }
@@ -67,26 +67,25 @@ nav a:hover {
 
 .passeio__imagem {
     border-radius: 3em;
-    margin-left: 250px;
+    height: auto;
     margin-top: 10px;
-    height: 300px;
 }
 
 .passeio__titulo {
     color: rgb(94, 23, 235);
     font-size: 30px;
     padding: 40px;
-    text-decoration: underline;
     text-align: center;
+    text-decoration: underline;
     text-transform: uppercase;
 }
 
 .passeio__texto {
     font-size: 20px;
-    padding: 10px;
-    text-align: center;
     line-height: 1.5;
     margin-right: 100px;
+    padding: 10px;
+    text-align: center;
 }
 
 footer {
