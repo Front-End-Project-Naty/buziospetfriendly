@@ -3,14 +3,14 @@ body {
 }
 
 body::after {
+   background-color: white;
     content: '';
-    position: fixed;
-    background-color: white;
-    width: 100%;
     height: 100%;
-    top: 0;
     left: 0;
     opacity: 0.6;
+    position: fixed;
+    top: 0;
+    width: 100%;
     z-index: -1;
   }
 
@@ -39,10 +39,10 @@ nav a:hover {
 }
 
 .menu__item {
-    list-style: none;
     font-family: 'Comic Neue';
     font-size: 25px;
     font-weight: bold;
+    list-style: none;
     margin: 30px;
     text-transform: uppercase;
 }
@@ -63,15 +63,83 @@ nav a:hover {
 }
 
 .apresentacao__titulo {
-    color: rgb(62, 7, 114);
+    color: rgb(94, 23, 235);
     font-size: 30px;
+    line-height: 1.5;
     padding: 40px;
     text-transform: uppercase;
 }
 
 .apresentacao__texto {
     font-size: 20px;
+    line-height: 1.5;
     padding: 10px;
+}
+
+.passeios__inicial__titulo {
+    color: rgb(94, 23, 235);
+    font-family: 'Comic Neue';
+    font-size: 30px;
+    font-weight: bold;
+    margin: 60px 0 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.passeios__inicial li {
+    border: 2px solid rgb(94, 23, 235);
+	border-radius: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+    height: 500px;
+	margin-left: 60px;
+	padding: 30px 40px;
+	text-align: center;
+	vertical-align: top;
+	width: 20%;
+}
+
+.passeio__imagem {
+    height: auto;
+    max-width: 100%;
+}
+
+.passeio__titulo {
+    color: rgb(94, 23, 235);
+    font-family: 'Comic Neue';
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.passeio__descricao {
+    color: black;
+    font-family: 'Comic Neue';
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.passeio__botao {
+    background: rgb(94, 23, 235);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Comic Neue';
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+}
+
+.passeio__botao:hover {
+    background: black;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .titulo__video {
@@ -93,6 +161,26 @@ footer {
 }
 
 .imagem__rodape {
-    width: 10%;
-    margin: 20px 0 10px 0; 
+   margin: 20px 0 10px 0; 
+   width: 10%;
 }
+
+@media screen and (max-width: 480px) {
+    .cabecalho, .apresentacao, .passeios__inicial, .video, .imagem__rodape {
+     width: auto;
+    }
+    
+    h1, h2, h3, h4, h5 {
+     text-align: center;
+     font-size: 10px;
+    }
+ 
+    p {
+     font-size: 10px;
+     
+    }
+ 
+    nav {
+     position: static;
+    }
+ }
